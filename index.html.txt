@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laura Voicu - Actriță Română</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="wrap container">
+      <div class="brand">
+        <div class="logo"></div>
+        <b>Laura Voicu</b>
+      </div>
+      <a href="#contact" class="btn">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero container">
+    <div class="card">
+      <h1>Laura Voicu</h1>
+      <p class="muted">Actriță Română din Craiova</p>
+      <div class="chips">
+        <div class="chip">Teatru</div>
+        <div class="chip">Film</div>
+        <div class="chip">TV</div>
+      </div>
+    </div>
+    <div class="portrait" style="background-image:url('images/laura.jpg'); background-size:cover;"></div>
+  </header>
+
+  <section class="container">
+    <h2 class="section-title">Filmografie</h2>
+    <div id="lista" class="grid">
+      <!-- Filmele vor fi populate de script.js -->
+    </div>
+  </section>
+
+  <section class="container" id="contact">
+    <h2 class="section-title">Contact</h2>
+    <form>
+      <input type="text" placeholder="Nume">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Mesaj"></textarea>
+      <button type="submit">Trimite</button>
+    </form>
+  </section>
+
+  <footer class="container">
+    © 2025 Laura Voicu - Toate drepturile rezervate
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
